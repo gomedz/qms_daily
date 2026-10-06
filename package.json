@@ -1,0 +1,31 @@
+{
+  "name": "qwap-bot",
+  "version": "1.0.0",
+  "description": "Automated Swap and Liquidity Bot for Qwap DEX on QMS Testnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "balances": "node index.js --balances",
+    "auto-swap": "node index.js --auto-swap",
+    "auto-liquidity": "node index.js --auto-liquidity",
+    "auto-all": "node index.js --all",
+    "daily": "node index.js --daily"
+  },
+
+  "keywords": [
+    "qms",
+    "qwap",
+    "dex",
+    "bot",
+    "swap",
+    "liquidity",
+    "uniswap-v2"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
